@@ -1,0 +1,24 @@
+{
+"iterations": 10,
+"generations": 30,
+ "prompt": "The first time he saw her, the sight of her was like a slap across his face. She'd come into the tavern where he worked and sat at one of the tables in front of him.",
+ "memory": "[ Author: ; Tags: ; Genre: Historical Romance ]",
+ "output_prefix": "out/basic_coherence/rom",
+ "parameters": {
+  "model": "euterpe-v2",
+  "temperature": 0.585,
+    "max_length": 40,
+    "min_length": 1,
+    "top_k": 0,
+    "top_p": 1,
+    "top_a": 1,
+    "typical_p": 1,
+    "tail_free_sampling": 0.87,
+    "repetition_penalty": 3.05,
+    "repetition_penalty_range": 2048,
+    "repetition_penalty_slope": 0.33,
+    "repetition_penalty_frequency": 0,
+    "repetition_penalty_presence": 0,
+  "order": ["Temperature", "Top_K", "Top_P", "TFS"]
+  }
+}
